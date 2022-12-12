@@ -5,7 +5,7 @@ Add it in your requirements.yml with:
 ```yaml
 ---
 collections:
-  - name: https://gitlab.com/sami-group/ansible-collection
+  - name: sami_shakir.ansible_collection
+    source: https://gitlab.com/sami-group/ansible-collection.git
     type: git
-    version: main
 ```
