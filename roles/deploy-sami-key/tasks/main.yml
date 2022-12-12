@@ -1,0 +1,7 @@
+---
+- name: Deploying sami's github SSH Keys
+  ansible.posix.authorized_key:
+    user: "{{ lookup('env', 'USER') }}"
+    state: present
+    # key: "{{ lookup('file', '/home/vagrant/.ssh/id_rsa.pub') }}"
+    key: https://github.com/sami-shakir.keys
