@@ -6,6 +6,6 @@ Add it in your requirements.yml with:
 ---
 collections:
   - name: sami_shakir.ansible_collection
-    source: https://gitlab.com/sami-group/ansible-collection.git
+    source: https://gitlab.com/sami-group/ansible/collections/public.git
     type: git
 ```

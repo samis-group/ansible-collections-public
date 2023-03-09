@@ -5,7 +5,7 @@
 namespace: sami_shakir
 
 # The name of the collection. Has the same character restrictions as 'namespace'
-name: ansible_collection
+name: public_collection
 
 # The version of the collection. Must be compatible with semantic versioning
 version: 1.0.0
@@ -20,7 +20,7 @@ authors:
 
 ### OPTIONAL but strongly recommended
 # A short summary description of the collection
-description: My collection
+description: My public collection
 
 # Either a single license or a list of licenses for content inside of a collection. Ansible Galaxy currently only
 # accepts L(SPDX,https://spdx.org/licenses/) licenses. This key is mutually exclusive with 'license_file'
@@ -42,7 +42,7 @@ license:
 # dependencies: {}
 
 # The URL of the originating SCM repository
-repository: https://gitlab.com/sami-group/ansible-collection
+repository: https://gitlab.com/sami-group/ansible/collections/public
 
 # # The URL to any online docs
 # documentation: http://docs.example.com
